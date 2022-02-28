@@ -1,0 +1,26 @@
+body {background-color:darkblue;}
+
+h1  
+{
+    position: relative;
+    left: 16em;
+    top: 0em;
+    color: rgb(247, 241, 245);}
+
+    #userinput 
+    {
+    position:relative;
+    color: rgb(219, 218, 233);
+    font-size: 2em;
+    }
+
+    img {
+        border-radius: 80%;
+        max-width: 20%;
+        height: 40%;
+      }
+
+      #quotecontainer 
+      {
+       color: rgb(238, 236, 243);
+    }
