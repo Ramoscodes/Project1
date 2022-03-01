@@ -86,8 +86,8 @@ function displayImageThree () {
 
 //** random quote button
 //*Array for quotes
-var quoteList = ['What is real will propsper', 'In order to surive you need a phenomenol amount of self believe',
- 'Play the long game', 'if you want it hard enough, it will happen'];
+var quoteList = ['What is real will prosper  ', 'In order to survive you need a phenomenal amount of self believe  ',
+ 'Play the long game  ', 'if you want it hard enough, it will happen  '];
 //*creating var to get id element
 var getId = document.getElementById("quotecontainer");
 //*creating a variable to get my button elemnt
@@ -99,15 +99,16 @@ quoteBtnContainer.addEventListener("click",displayQuote);
 function displayQuote (){
 
 
-let randomImg = Math.floor(Math.random() * 3);
+let randomQuote = Math.floor(Math.random() * 3);
 
 {
-    randomImg = Math.floor(Math.random() * 3);
+    randomQuote = Math.floor(Math.random() * 3);
 }
 
 /*call the variable that is holding the img element and populate it with
     the randomly selected image from your array*/
-    getId = quoteList[randomImg];
+    getId = quoteList[randomQuote];
     document.body.append(getId);
+    
 
 }
